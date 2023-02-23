@@ -19,13 +19,14 @@ const Header = () => {
           <img src={people} alt='people'/>
           <p>1600 people requested access to the site</p>
         </div>
-        <div className='header_ai'>
+        {/* <div className='header_ai'>
+          <img src={ai} alt='ai'/>
+        </div> */}
+        
+    </div>
+    <div className='header_ai'>
           <img src={ai} alt='ai'/>
         </div>
-
-
-   
-    </div>
     </div>
   )
 }
